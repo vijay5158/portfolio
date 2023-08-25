@@ -189,7 +189,7 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on Azure cloud platform and learning GCP and AWS",
+        "⚡ Experience working on AWS cloud platform and learning GCP and Azure",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
       ],
       softwareSkills: [
