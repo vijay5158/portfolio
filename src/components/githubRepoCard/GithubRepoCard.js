@@ -40,12 +40,14 @@ export default function GithubRepoCard({ repo, theme }) {
             {repo.description}
           </p>
           <div className="repo-details">
+            {(repo.live && repo.live!=="") && 
             <p
               className="repo-creation-date subTitle"
-              style={{ color: theme.secondaryText }}
+              style={{ color: theme.secondaryText, cursor: "pointer" }}
+              onClick={() => openRepoinNewTab(repo.live)}
             >
-              Created on {repo.createdAt.split("T")[0]}
-            </p>
+              Live Link
+            </p> }
             <ProjectLanguages
               className="repo-languages"
               logos={repo.languages}

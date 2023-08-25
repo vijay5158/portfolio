@@ -14,7 +14,7 @@ const greeting = {
   logo_name: "Vijay",
   text: "Hello !",
   subTitle:
-    "I’m a junior from 🇮🇳 I'm an open-source enthusiast, a Web Developer, a learner 📕I'm deeply passionate about software development & innovations. I believe in the power of community.",
+    "I’m a Full Stack Software Engineer from 🇮🇳. I'm an open-source enthusiast, a Software Developer, a learner 📕I'm deeply passionate about software development & innovations. I believe in the power of community.",
   resumeLink:
     "https://drive.google.com/file/d/1GogwZLFzoaqwpR439LneQQYZ12NkmtWR/view",
   portfolio_repository: "https://github.com/vijay5158/Portfolio",
@@ -68,47 +68,6 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    {
-      title: "Data Science & Machine Learning",
-      fileName: "DataScienceImg",
-      skills: [
-        "⚡ Done various projects in Data Analysis and Machine Learning.",
-        "⚡ Experience of working with Computer Vision,Pandas ,Numpy and Scikit-Learn projects",
-        // "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-      ],
-      softwareSkills: [
-        {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-      ],
-    },
     {
       title: "Full Stack Web Development",
       fileName: "FullStackImg",
@@ -186,6 +145,47 @@ const skills = {
       ],
     },
     {
+      title: "Data Science & Machine Learning",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ Done various projects in Data Analysis and Machine Learning.",
+        "⚡ Experience of working with Computer Vision,Pandas ,Numpy and Scikit-Learn projects",
+        // "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Tensorflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Keras",
+          fontAwesomeClassname: "simple-icons:keras",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "PyTorch",
+          fontAwesomeClassname: "logos-pytorch",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+      ],
+    },
+    {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
@@ -237,6 +237,7 @@ const skills = {
         },
       ],
     },
+
   ],
 };
 
@@ -293,12 +294,12 @@ const degrees = {
       subtitle: "B.Tech. in Computer Science and Engineering",
       logo_path: "ngf_logo.png",
       alt_name: "NGFCET",
-      duration: "2019 - Present",
+      duration: "2019 - 2023",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DSA, DAA, PPS, OS, COA etc.",
+        "⚡ I have studied basic software engineering subjects like DSA, DBMS, CN, OS, COA, SE etc.",
         "⚡ Apart from this, I have done courses on Data Analytics, Machine Learning, Applied Data Science, and Full Stack Web Development.",
         "⚡ My CGPA is 8.01 out of 10.",
-        "⚡ I have participated in many cultural events like Poetry Competition, Clover 2019 etc."
+        "⚡ I have participated in many cultural events like Poetry Competition, Clover 2019, Technical Project Contest 2023 etc."
       ],
       website_link: "https://www.ngfcet.com/",
     },
@@ -352,6 +353,15 @@ const certifications = {
       alt_name: "NPTEL",
       color_code: "#FFBB0099",
     },
+    {
+      title: "The Joy of Computing using Python",
+      subtitle: "- IIT Madras",
+      logo_path: "nptel_logo.png",
+      certificate_link:
+        "/",
+      alt_name: "NPTEL",
+      color_code: "#FFBB0099",
+    },
   ],
 };
 
@@ -368,6 +378,29 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Frontend Developer Intern",
+          company: "Daphnis Labs",
+          company_url: "https://www.daphnislabs.com/",
+          logo_path: "daphnis.png",
+          duration: "Jan 2023 - Apr 2023",
+          location: "Work From Home",
+          description:
+            "Collaborated with a team of 5 to build and maintain responsive web applications, leading the development of 4+ projects for increased revenue and client satisfaction. Assisted in designing and developing new features, enhancing user experience with responsive design principles. Collaborated effectively across departments on real-world client projects. Developed skills in React/Redux, Next.Js, database management, and Node as a Frontend Developer Intern at Daphnis Labs .",
+          color: "#ee3c26",
+        },
+        {
+          title: "Full Stack Developer Inter",
+          company: "Skyhype Communications PVT. LTD.",
+          company_url:
+            "https://www.skyhype.in/",
+          logo_path: "skyhypelogo.jpeg",
+          duration: "June 2022 - Dec 2022",
+          location: "Work From Home",
+          description:
+            "Collaborated with a team of 5 developers in designing and implementing a link-in-bio platform using React, Redux, Next.js, and Django, meeting all project deadlines. Utilized AWS services for high availability and scalability of the complete project infrastructure. Actively participated in team meetings, brainstorming sessions, and scrum ceremonies to foster effective communication and agile development. Overall, my Full Stack internship at SkyHype provided a strong foundation in web development, product development, user research, and data analysis.",
+          color: "#0071C5",
+        },
+        {
           title: "Data Science Research Intern",
           company: "The Sparks Foundation",
           company_url: "https://www.thesparksfoundationsingapore.org/",
@@ -376,31 +409,7 @@ const experience = {
           location: "Work From Home",
           description:
             "Developed Machine Learning models using Python libraries and , Explored and Visualize data.",
-          color: "#ee3c26",
-        },
-        {
-          title: "Campus SuperHero",
-          company: "CodingBlocks",
-          company_url:
-            "https://codingblocks.com/",
-          logo_path: "blocks.jpeg",
-          duration: "June 2020 - Present",
-          location: "Work From Home",
-          description:
-            "Communicating with students and guide them. Conduct workshops and Seminars and Promote Coding- Blocks.",
-          color: "#0071C5",
-        },
-        {
-          title: "Student Partner",
-          company: "InternShala",
-          company_url:
-            "https://internshala.com/",
-          logo_path: "internshala.jpg",
-          duration: "Dec 2019 - Mar 2020",
-          location: "Work From Home",
-          description:
-            "Interacted with students and solved their queries and guide them.Conducted workshops and Seminars .",
-          color: "#0071C5",
+          color: "#0071c5",
         },
       ],
     },
@@ -437,7 +446,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects involves Data Science , Machine Learning and Web Development based projects. My best experience is to create web applications using React/Redux and Django.",
+    "My projects involves Web Development, Data Science and Machine Learning based projects. My best experience is to create web applications using React/Redux and Django.",
   avatar_image_path: "projects_image.svg",
 };
 
