@@ -16,7 +16,7 @@ const greeting = {
   subTitle:
     "I’m a Full Stack Software Engineer from 🇮🇳. I'm an open-source enthusiast, a Software Developer, a learner 📕I'm deeply passionate about software development & innovations. I believe in the power of community.",
   resumeLink:
-    "https://drive.google.com/file/d/1GogwZLFzoaqwpR439LneQQYZ12NkmtWR/view",
+    "https://drive.google.com/file/d/1JljrWVUj21dzo7qwSOFoaZwOzlsbNNgd/view?usp=sharing",
   portfolio_repository: "https://github.com/vijay5158/Portfolio",
 };
 
